@@ -1,0 +1,20 @@
+{
+  "name": "testing-in-browsers-and-node",
+  "version": "0.0.0",
+  "description": "An example of using Testem to run tests in browsers and Node.",
+  "main": "./lib/num.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testem"
+  },
+  "author": {
+    "name": "Kenneth Powers",
+    "email": "ken@kenpowers.net"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "testem": "~0.5.12"
+  }
+}
