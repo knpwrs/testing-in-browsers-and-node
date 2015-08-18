@@ -1,10 +1,11 @@
 {
   "name": "testing-in-browsers-and-node",
+  "private": true,
   "version": "0.0.0",
   "description": "An example of using Testem to run tests in browsers and Node.",
   "main": "./lib/num.js",
   "scripts": {
-    "test": "./node_modules/.bin/testem"
+    "test": "testem"
   },
   "author": {
     "name": "Kenneth Powers",
