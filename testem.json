@@ -10,7 +10,7 @@
   ],
   "launchers": {
     "node": {
-      "command": "./node_modules/.bin/mocha -r test/setup.js -R tap test/*.test.js",
+      "command": "npm run test:node",
       "protocol": "tap"
     }
   },

@@ -5,7 +5,9 @@
   "description": "An example of using Testem to run tests in browsers and Node.",
   "main": "./lib/num.js",
   "scripts": {
-    "test": "testem"
+    "test": "testem ci",
+    "test:dev": "testem",
+    "test:node": "mocha -r test/setup.js -R tap test/*.test.js"
   },
   "author": {
     "name": "Kenneth Powers",
@@ -13,9 +15,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "~1.15.1",
     "chai": "~1.8.1",
+    "mocha": "~1.15.1",
     "sinon": "~1.7.3",
-    "testem": "~0.5.12"
+    "testem": "^0.9.4"
   }
 }
