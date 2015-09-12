@@ -1,5 +1,5 @@
 // Export modules to global scope as necessary (only for testing)
-if (typeof process !== 'undefined' && process.title === 'node') {
+if (typeof process !== 'undefined') {
   // We are in node. Require modules.
   expect = require('chai').expect;
   sinon = require('sinon');
