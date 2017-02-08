@@ -1,5 +1,7 @@
 # Multi-Environment Testing Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/knpwrs/testing-in-browsers-and-node.svg)](https://greenkeeper.io/)
+
 This repository is meant to accompany the article [Testing in Browsers and
 Node with Mocha, Chai, Sinon, and Testem][1].
 
